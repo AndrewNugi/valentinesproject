@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+
+body{
+    align-items: center;
+    font-family: "Mochiy Pop P One", sans-serif;
+    background-color: #f2acac;
+    width: 100%;
+    height: auto;
+}
+.img2, .img3, .img4 {
+    border: 3%;
+    width: 385px;
+    height: 385px;
+    top: 0;
+    position: relative;
+    left: 35%;
+}
+.box1, .box3, .box4, .box5, .box8{
+    border: 10px solid rgba(0,0,0,0);
+    align-items: center;
+    justify-content: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding: 15px;
+    padding-top: 9px;
+    border-radius: 3%;
+    box-shadow: 0 0 5px rgb(255, 135, 135), 0 0 5px rgb(255, 148, 148);
+    transition: .5s ease;
+}
+p{
+    color: white;
+    transition: 0.3s ease;
+}
+p:hover{
+    color: black;
+}
+a {
+    display: flex;
+    width: 100px;
+    padding: 5px 5px;
+    text-decoration: none;
+    color: white;
+    background-color: #f2acac;
+    border: 1px solid #f2acac;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 1%;
+    transition: .5s ease;
+}
+a:hover, .box1:hover, .box3:hover, .box4:hover, .box5:hover, .box8:hover {
+  box-shadow: rgb(255, 73, 73) 0px 0 20px;
+
+}
+a:hover{
+  cursor: pointer;
+  color: black;
+}
+.gif1{
+    border: 3%;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    position: relative;
+    left: 15%;
+
+}
+.gif2 {
+    border: 3%;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    position: relative;
+    left: 53%;
+}
+.gif3 {
+    border: 3%;
+    width: 200px;
+    height: 200px;
+    top: 15px;
+    position: relative;
+    left: 42%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    .img2, .img3, .img4 {
+        width: 80%; /* Adjust the width as needed for smaller screens */
+        left: 10%; /* Center the images horizontally */
+    }
+
+    .box1, .box3, .box4, .box5, .box8 {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    a {
+        margin-left: 30%;
+    }
+}

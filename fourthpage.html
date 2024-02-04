@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="valentines-day-card">
+        <input type="checkbox" id="open">
+        <label for="open" class="open"></label>
+        <div class="card-front">
+            <div class="note">Click To Open</div>
+        </div>
+        <div class="card-inside">
+            <div class="text-one">Will you be my</div>
+            <img src="cat4.jpg" alt="Cat">
+        </div>
+    </div>
+    <div class="answer">
+        <a href="yes.html">Yes!</a>
+        <button class="btn" onclick="checkAns()" >No</button>
+
+        <script>
+
+            function checkAns() {
+              // Display an alert indicating the wrong answer
+              alert("We both know there is only one right answer here. Try again! -_-");
+            }
+        </script>
+    </div>
+</body>
+</html>
