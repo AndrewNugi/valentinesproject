@@ -218,6 +218,8 @@ a, .btn {
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     margin-left: 45%;
     margin-top: 10%;
     transition: .5s ease;
@@ -228,5 +230,11 @@ a:hover, .btn:hover{
     cursor: pointer;
     color: black;
     box-shadow: rgb(255, 73, 73) 0px 0 20px;
+}
+.back {
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    margin-left: 20%;
 }
 

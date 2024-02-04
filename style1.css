@@ -82,6 +82,15 @@ a:hover{
     position: relative;
     left: 42%;
 }
+.back {
+    align-items: center;
+    justify-content: center;
+}
+.beginning{
+    width: 400px;
+    margin-left: 20%;
+    justify-content: center;
+}
 
 @media screen and (max-width: 600px) {
     body {
@@ -98,7 +107,7 @@ a:hover{
         margin-right: 10%;
     }
 
-    a {
+    a, .back, .beginning {
         margin-left: 30%;
     }
 }
